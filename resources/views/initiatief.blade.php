@@ -9,10 +9,10 @@
     <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl mx-auto my-12">
         <div class="flex-1">
         <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-4 py-1 mb-4">
-Over SociaalAI
+Over Techniek College Rotterdam
 </span>
             <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-900">
-                Voor een digitaal Rotterdam waar iedereen mee kan doen
+                Techtoniek College Rotterdam
             </h2>
             <p class="text-gray-700 leading-relaxed mb-4">
                 SociaalAI helpt inwoners sterker te staan in een steeds digitalere wereld.
@@ -42,10 +42,10 @@ Over SociaalAI
 
         <div class="flex-1">
         <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-4 py-1 mb-4">
-            Over SociaalAI
+            Over Hoogeschool Rotterdam
         </span>
             <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-900">
-                Voor een digitaal Rotterdam waar iedereen mee kan doen
+               hoogedschool Rotterdam
             </h2>
             <p class="text-gray-700 leading-relaxed mb-4">
                 SociaalAI helpt inwoners sterker te staan in een steeds digitalere wereld.
@@ -61,10 +61,10 @@ Over SociaalAI
     <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl mx-auto my-12">
         <div class="flex-1">
         <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-4 py-1 mb-4">
-Over SociaalAI
+over Gemeente Rotterdam
 </span>
             <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-900">
-                Voor een digitaal Rotterdam waar iedereen mee kan doen
+                gemeente Rotterdam
             </h2>
             <p class="text-gray-700 leading-relaxed mb-4">
                 SociaalAI helpt inwoners sterker te staan in een steeds digitalere wereld.
@@ -94,10 +94,10 @@ Over SociaalAI
 
         <div class="flex-1">
         <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-4 py-1 mb-4">
-            Over SociaalAI
+            Over Erasmus Universiteit Rotterdam
         </span>
             <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-900">
-                Voor een digitaal Rotterdam waar iedereen mee kan doen
+                Erasmus Universiteit Rotterdam
             </h2>
             <p class="text-gray-700 leading-relaxed mb-4">
                 SociaalAI helpt inwoners sterker te staan in een steeds digitalere wereld.
@@ -115,10 +115,10 @@ Over SociaalAI
     <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl mx-auto my-12">
         <div class="flex-1">
         <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-4 py-1 mb-4">
-Over SociaalAI
+Over Erasmus Data
 </span>
             <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-900">
-                Voor een digitaal Rotterdam waar iedereen mee kan doen
+                Erasmus Data
             </h2>
             <p class="text-gray-700 leading-relaxed mb-4">
                 SociaalAI helpt inwoners sterker te staan in een steeds digitalere wereld.

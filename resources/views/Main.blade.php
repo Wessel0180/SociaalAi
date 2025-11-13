@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite('resources/css/app.css')
     <title>@yield('title')</title>
+    <meta name="description" content="SociaalAI helpt inwoners sterker te staan in een steeds digitalere wereld. We doen dit door Rotterdammers actief mee te laten denken, praten en beslissen over kunstmatige intelligentie.">
+
 </head>
 
 <body class="bg-gradient-to-br from-[#00811F] to-[#b9eb34]">
 
 {{--banner--}}
 <div class="relative w-full h-72 md:h-96 bg-cover bg-center shadow-lg"
-     style="background-image:url('{{ asset('/images/banner.jpg') }}');">
+     style="background-image:url('{{ asset('/images/banner-optim.jpg') }}');">
 
     <div class="absolute inset-0 flex items-center justify-start p-8">
         <img src="{{ asset('/images/Sociaal_AI_Logo_Wit.png') }}"
@@ -42,11 +44,11 @@
 
 <footer class="bg-white py-12 mt-16 shadow-inner">
     <div class="flex justify-between items-center space-x-4 mb-8">
-        <img src="{{ asset('/images/Techniek_college_Rotterdam_logo.png') }}" class="h-16">
-        <img src="{{ asset('/images/Hoogeschool_Rotterdam.png') }}" class="h-16">
-        <img src="{{ asset('/images/Gemeente_rotterdam.png') }}" class="h-16">
-        <img src="{{ asset('/images/Erasmus_uni.png') }}" class="h-16">
-        <img src="{{ asset('/images/Erasmus_Data.png') }}" class="h-16">
+        <img alt="" src="{{ asset('/images/Techniek_college_Rotterdam_logo.png') }}" class="h-16">
+        <img alt="" src="{{ asset('/images/Hoogeschool_Rotterdam.png') }}" class="h-16">
+        <img alt="" src="{{ asset('/images/Gemeente_rotterdam.png') }}" class="h-16">
+        <img alt="" src="{{ asset('/images/Erasmus_uni.png') }}" class="h-16">
+        <img alt="" src="{{ asset('/images/Erasmus_Data.png') }}" class="h-16">
     </div>
 
     <div class="max-w-3xl mx-auto text-center px-6">

@@ -66,7 +66,7 @@
         <p class="text-gray-700 mb-2"><strong>📍 Waar:</strong> Rotterdam -Hillevliet 90</p>
         <p class="text-gray-700 mb-6"><strong>🎯 Wat:</strong> Een dag vol workshops en lezingen over de rol van AI in de samenleving. Iedereen is welkom!</p>
 
-        <a href="#"
+        <a href="/programa"
            class="inline-block bg-[#00811F] text-white font-medium px-6 py-2  hover:bg-rdm transition">
             Meer info
         </a>
@@ -75,9 +75,9 @@
 
     <!-- Rechter deel: één vaste afbeelding -->
     <div class="flex-1">
-        <img src="{{ asset('/images/event1.jpg') }}"
+        <img src="{{ asset('/images/Event_AI_foto.jpg') }}"
              alt="SociaalAI Inspiratiedag"
-             class="w-full h-64 object-cover rounded-2xl shadow-md">
+             class="w-full h-64 object-cover shadow-md">
     </div>
 </section>
 

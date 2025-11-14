@@ -16,7 +16,7 @@
      style="background-image:url('{{ asset('/images/banner-optim.jpg') }}');">
 
     <div class="absolute inset-0 flex items-center justify-start p-8">
-        <img src="{{ asset('/images/Sociaal_AI_Logo_Wit.png') }}"
+        <img src="{{ asset('/images/Sociaal_AI_Logo_Wit01.png') }}"
              alt="Sociaal AI Logo"
              class="h-62 md:h-78 object-contain ml-[15%]">
     </div>

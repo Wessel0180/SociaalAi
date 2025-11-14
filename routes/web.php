@@ -13,13 +13,18 @@ Route::get('/', function () {
 });
 
 
+Route::get('/over', function () {
+    return view('over');
+});
+
+
 Route::get('/contact', function () {
     return view('contact');
 });
 
 
-Route::get('/hoogtenpunten', function () {
-    return view('hoogtenpunten');
+Route::get('/programma', function () {
+    return view('programma');
 });
 
 
@@ -33,8 +38,8 @@ Route::get('/initiatief', function () {
 });
 
 
-Route::get('/programa', function () {
-    return view('programa');
+Route::get('/agenda', function () {
+    return view('agenda');
 });
 
 

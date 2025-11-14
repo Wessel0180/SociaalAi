@@ -19,7 +19,7 @@
         </div>
 
         <div class="flex-1">
-            <img src="{{ asset('/images/event1.jpg') }}"
+            <img src="{{ asset('/images/Event_AI_foto.jpg') }}"
                  alt="SociaalAI Inspiratiedag"
                  class="w-full h-64 object-cover rounded-2xl shadow-md">
         </div>
@@ -47,7 +47,7 @@
         </div>
 
         <div class="flex-1">
-            <img src="{{ asset('/images/event1.jpg') }}"
+            <img src="{{ asset('/images/Event_AI_foto1.jpg') }}"
                  alt="SociaalAI Inspiratiedag"
                  class="w-full h-64 object-cover rounded-2xl shadow-md">
         </div>

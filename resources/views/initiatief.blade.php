@@ -15,12 +15,7 @@ Over Techniek College Rotterdam
                 Techtoniek College Rotterdam
             </h2>
             <p class="text-gray-700 leading-relaxed mb-4">
-                SociaalAI helpt inwoners sterker te staan in een steeds digitalere wereld.
-                We doen dit door Rotterdammers actief mee te laten denken, praten en beslissen over kunstmatige intelligentie.
-            </p>
-            <p class="text-gray-700 leading-relaxed mb-6">
-                Het SociaalAI Lab is een open plek waar bewoners, onderzoekers, ontwerpers en beleidsmakers samenwerken.
-                Samen maken we AI die eerlijk, duidelijk en voor iedereen bruikbaar is.
+                Zorgt voor betrokkenheid van mbo-studenten en praktische AI-toepassingen
             </p>
         </div>
 
@@ -67,12 +62,7 @@ over Gemeente Rotterdam
                 gemeente Rotterdam
             </h2>
             <p class="text-gray-700 leading-relaxed mb-4">
-                SociaalAI helpt inwoners sterker te staan in een steeds digitalere wereld.
-                We doen dit door Rotterdammers actief mee te laten denken, praten en beslissen over kunstmatige intelligentie.
-            </p>
-            <p class="text-gray-700 leading-relaxed mb-6">
-                Het SociaalAI Lab is een open plek waar bewoners, onderzoekers, ontwerpers en beleidsmakers samenwerken.
-                Samen maken we AI die eerlijk, duidelijk en voor iedereen bruikbaar is.
+                initiatiefnemer binnen het programma Digitale Inclusie. Met het actieplan Digitale Inclusie wil de gemeente Rotterdammers digitaalvaardig(er) maken. Het actieplan heeft als doel dat alle inwoners veilig, vaardig en volwaardig kunnen deelnemen aan de digitale samenleving. 
             </p>
         </div>
 

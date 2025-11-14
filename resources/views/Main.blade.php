@@ -42,15 +42,41 @@
     @yield('content')
 </main>
 
-
+{{--<footer class="bg-white py-12 mt-16 shadow-inner">--}}
+{{--    <div class="flex justify-evenly items-center space-x-4 mb-8">--}}
+{{--        <img alt="" src="{{ asset('/images/Techniek_college_Rotterdam_logoOP.png') }}" class="h-16 object-contain">--}}
+{{--        <img alt="" src="{{ asset('/images/Hoogeschool_Rotterdam.png') }}" class="h-16 object-contain">--}}
+{{--        <img alt="" src="{{ asset('/images/Gemeente_rotterdamOP.png') }}" class="h-16 object-contain">--}}
+{{--        <img alt="" src="{{ asset('/images/Erasmus_uniOP.png') }}" class="h-16 object-contain">--}}
+{{--        <img alt="" src="{{ asset('/images/Erasmus_DataOP.png') }}" class="h-16 object-contain">--}}
+{{--    </div>--}}
+{{--</footer>--}}
 <footer class="bg-white py-12 mt-16 shadow-inner">
     <div class="flex justify-evenly items-center space-x-4 mb-8">
-        <img alt="" src="{{ asset('/images/Techniek_college_Rotterdam_logoOP.png') }}" class="h-16">
-        <img alt="" src="{{ asset('/images/Hoogeschool_Rotterdam.png') }}" class="h-16">
-        <img alt="" src="{{ asset('/images/Gemeente_rotterdamOP.png') }}" class="h-16">
-        <img alt="" src="{{ asset('/images/Erasmus_uniOP.png') }}" class="h-16">
-        <img alt="" src="{{ asset('/images/Erasmus_DataOP.png') }}" class="h-16">
+
+        <div class="w-32 h-20 flex items-center justify-center">
+            <img src="{{ asset('/images/Techniek_college_Rotterdam_logoOP.png') }}" class="max-w-full max-h-full object-contain">
+        </div>
+
+        <div class="w-32 h-20 flex items-center justify-center">
+            <img src="{{ asset('/images/Hoogeschool_Rotterdam.png') }}" class="max-w-full max-h-full object-contain">
+        </div>
+
+        <div class="w-32 h-20 flex items-center justify-center">
+            <img src="{{ asset('/images/Gemeente_rotterdam.png') }}" class="max-w-full max-h-full object-contain">
+        </div>
+
+        <div class="w-32 h-20 flex items-center justify-center">
+            <img src="{{ asset('/images/Erasmus_uni.png') }}" class="max-w-full max-h-full object-contain">
+        </div>
+
+        <div class="w-32 h-20 flex items-center justify-center">
+            <img src="{{ asset('/images/Erasmus_DataOP.png') }}" class="max-w-full max-h-full object-contain">
+        </div>
+
     </div>
 </footer>
+
+
 </body>
 </html>

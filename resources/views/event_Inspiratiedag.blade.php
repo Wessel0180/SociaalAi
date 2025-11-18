@@ -38,29 +38,49 @@
                 Met een speech van wethouder <strong>Faouzi Achbar</strong>, lezing, panelgesprek,
                 rondetafelsessies en workshops over AI en sociale vraagstukken.
             </p>
-
-            <h3 class="text-2xl font-semibold text-[#00811F]">Waarom deelnemen:</h3>
-
-            <ul class="space-y-3 list-disc pl-5">
-                <li>
-                    Zelf ervaren hoe AI werkt in de praktijk en hoe het kan worden ingezet bij sociale uitdagingen.
-                </li>
-                <li>
-                    In contact komen met gelijkgestemde Rotterdammers, zoals professionals,
-                    onderzoekers en ontwerpers.
-                </li>
-                <li>
-                    Meedoen aan workshops en demo’s, zoals <strong>Digiderius</strong>, de
-                    <strong>AI Lab-kar</strong> en AI-prototypes van studenten.
-                </li>
-            </ul>
         </div>
 
     </section>
 
+    <div class="flex justify-center my-10">
+        <div class="bg-white p-6  gap 10 shadow-lg max-w-xl w-full text-center">
+            <h1 class=" text-[#00811F] text-2xl font-semibold">Waarom deelnemen</h1>
+        </div>
+    </div>
 
 
 
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 p-6">
+
+        <div class="space-y-6">
+{{--kolom1--}}
+            <div class="bg-white shadow-lg p-6 min-h-[150px] max-w-sm mx-auto">
+                <p>
+                    Zelf ervaren hoe AI werkt in de praktijk en hoe het kan worden ingezet bij sociale uitdagingen.
+                </p>
+            </div>
+        </div>
+{{--kolom2--}}
+            <div class="space-y-6">
+
+                <div class="bg-white shadow-lg p-6 min-h-[150px] max-w-sm mx-auto">
+
+                    <p>
+                        •	In contact komen met gelijkgestemde Rotterdammers, zoals professionals die actief zijn in het sociaal domein, onderzoekers en ontwerpers.
+                    </p>
+                </div>
+            </div>
+{{--kolom3--}}
+                <div class="space-y-6">
+
+                    <div class="bg-white shadow-lg p-6 min-h-[150px] max-w-sm mx-auto">
+                        <h3 class="text-xl font-semibold mb-4"></h3>
+                        <p>
+                            •	Meedoen aan workshops en demo’s, zoals Digiderius, de AI Lab-kar en AI-prototypes van studenten
+                        </p>
+
+                    </div>
+                </div>
 
 
 

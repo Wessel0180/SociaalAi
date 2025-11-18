@@ -88,7 +88,7 @@
 
     <div class="flex justify-between items-center space-x-4 mb-8  ">
         <img src="{{ asset('/images/Techniek_college_Rotterdam_logo.png') }}" alt="Techniek College Rotterdam Logo" class="h-16">
-        <img src="{{ asset('/images/Hoogeschool_Rotterdam.png') }}" alt="Hoogeschool Rotterdam Logo" class="h-16">
+        <img src="{{ asset('/images/Hogeschool_Rotterdam.png') }}" alt="Hoogeschool Rotterdam Logo" class="h-16">
         <img src="{{ asset('/images/Gemeente_rotterdam.png') }}" alt="Gemeente Rotterdam Logo" class="h-16">
         <img src="{{ asset('/images/Erasmus_uni.png') }}" alt="Erasmus Universiteit Logo" class="h-16">
         <img src="{{ asset('/images/Erasmus_Data.png') }}" alt="Erasmus Data Logo" class="h-16">

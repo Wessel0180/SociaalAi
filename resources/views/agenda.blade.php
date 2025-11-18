@@ -17,11 +17,11 @@
                     <p class="text-gray-700"><strong> Wanneer:</strong> 25 november 2025</p>
                 </div>
                 <div class="flex items-center space-x-3">
-                    <i class="fa-regular fa-clock text-[#00811F] text-3xl"></i> 
+                    <i class="fa-regular fa-clock text-[#00811F] text-3xl"></i>
                     <p class="text-gray-700"><strong>Hoelaat:</strong> 12:30 - 19:00</p>
                 </div>
                 <div class="flex items-center space-x-3">
-                    <i class="fa-solid fa-location-dot text-[#00811F] ml-1 text-3xl"></i> 
+                    <i class="fa-solid fa-location-dot text-[#00811F] ml-1 text-3xl"></i>
                     <p class="text-gray-700 ml-1 "><strong>Waar:</strong> Rotterdam - Hillevliet 90</p>
                 </div>
                 <div class="flex mb-6 space-x-3">
@@ -29,7 +29,7 @@
                     <p class="text-gray-700 pb-3 "><strong> Wat:</strong> Een dag vol workshops en lezingen over de rol van AI in de samenleving. Iedereen is welkom!</p>
                 </div>
             </div>
-                <a href="/programa" class="inline-block bg-[#00811F] text-white font-medium px-6 py-2 rounded-full hover:bg-green-700 transition">
+                <a href="/event" class="inline-block bg-[#00811F] text-white font-medium px-6 py-2 rounded-full hover:bg-green-700 transition">
                     Meer info
                 </a>
             </div>
@@ -45,7 +45,7 @@
             Evenement
         </span>
             <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-900">
-                 Studenten en bewoners verkennen de sociale invloed van AI 
+                 Studenten en bewoners verkennen de sociale invloed van AI
             </h2>
            <div class="space-y-4">
                 <div class="flex items-center space-x-3">
@@ -53,11 +53,11 @@
                     <p class="text-gray-700"><strong> Wanneer:</strong> 1 november - 1 februari 2025</p>
                 </div>
                 <div class="flex items-center space-x-3">
-                    <i class="fa-regular fa-clock text-[#00811F] text-3xl"></i> 
+                    <i class="fa-regular fa-clock text-[#00811F] text-3xl"></i>
                     <p class="text-gray-700"><strong>Hoelaat:</strong> XX - XX</p>
                 </div>
                 <div class="flex items-center space-x-3">
-                    <i class="fa-solid fa-location-dot text-[#00811F] ml-1 text-3xl"></i> 
+                    <i class="fa-solid fa-location-dot text-[#00811F] ml-1 text-3xl"></i>
                     <p class="text-gray-700 ml-1 "><strong>Waar:</strong> Rotterdam - Hillevliet 90</p>
                 </div>
                 <div class="flex mb-6 space-x-3">

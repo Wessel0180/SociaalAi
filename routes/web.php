@@ -6,8 +6,6 @@ Route::get('/folder', function () {
     return view('folder');
 });
 
-
-
 Route::get('/', function () {
     return view('index');
 });
@@ -17,14 +15,8 @@ Route::get('/over', function () {
     return view('over');
 });
 
-
 Route::get('/contact', function () {
     return view('contact');
-});
-
-
-Route::get('/programma', function () {
-    return view('programma');
 });
 
 
@@ -43,8 +35,18 @@ Route::get('/agenda', function () {
 });
 
 
-Route::get('/', function () {
-    return view('index');
+Route::get('/event', function () {
+    return view('event_inspiratiedag');
 });
 
+Route::get('/programma/kennis', function () {
+    return view('programma_kennis_vaardigheiden');
+});
 
+Route::get('/programma/actie', function () {
+    return view('programma_actie_onderzoek');
+});
+
+Route::get('/programma/faciliteit', function () {
+    return view('programma_faciliteit_lab');
+});

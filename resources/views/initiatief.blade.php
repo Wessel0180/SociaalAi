@@ -30,7 +30,7 @@ Over Techniek College Rotterdam
     <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl mx-auto my-12">
 
         <div class="flex-1">
-            <img src="{{ asset('/images/Hoogeschool_Rotterdam.png') }}"
+            <img src="{{ asset('/images/Hogeschool_Rotterdam.png') }}"
                  alt="AI concept illustration"
                  class="w-full h-auto shadow-md object-cover">
         </div>

@@ -4,12 +4,21 @@
 @section("title", "hoogtenpunten")
 
 @section("content")
+
+    <div class="flex justify-center mt-10">
+        <div class="bg-white p-6  shadow-lg max-w-xl w-full text-center">
+            <h1 class="text-2xl font-semibold">Kennis & Vaardigheden</h1>
+        </div>
+    </div>
+
+
+
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 p-6">
 
         <!-- Kolom 1 -->
         <div class="space-y-6">
 
-            <div class="bg-white shadow-lg p-6 rounded-xl min-h-[420px] max-w-sm mx-auto">
+            <div class="bg-white shadow-lg p-6  min-h-[420px] max-w-sm mx-auto">
                 <h3 class="text-xl font-semibold mb-4">AI-vaardigheidstrainingen</h3>
                 <p>
                     Workshops voor inwoners, jongeren en professionals over wat AI is en hoe je het verantwoord kunt gebruiken.
@@ -31,7 +40,7 @@
         <!-- Kolom 2 -->
         <div class="space-y-6">
 
-            <div class="bg-white shadow-lg p-6 rounded-xl min-h-[420px] max-w-sm mx-auto">
+            <div class="bg-white shadow-lg p-6  min-h-[420px] max-w-sm mx-auto">
                 <h3 class="text-xl font-semibold mb-4">Samen toekomstbeelden creëren met behulp van AI</h3>
                 <p>
                     Een interactieve sessie die mensen inzicht geeft in generatieve AI, en waarin samen creatieve scenario’s
@@ -49,7 +58,7 @@
         <!-- Kolom 3 -->
         <div class="space-y-6">
 
-            <div class="bg-white shadow-lg p-6 rounded-xl min-h-[420px] max-w-sm mx-auto">
+            <div class="bg-white shadow-lg p-6  min-h-[420px] max-w-sm mx-auto">
                 <h3 class="text-xl font-semibold mb-4">AI in het basisonderwijs</h3>
                 <p>
                     Leuke lessen waarin basisschoolleerlingen op een speelse manier kennismaken met kunstmatige intelligentie.

@@ -28,8 +28,8 @@ Route::get('/programma', function () {
 });
 
 
-Route::get('/informatie', function () {
-    return view('informatie');
+Route::get('/verantwoord_ai', function () {
+    return view('verantwoord_ai');
 });
 
 

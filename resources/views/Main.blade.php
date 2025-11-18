@@ -6,7 +6,7 @@
     @vite('resources/css/app.css')
     <title>@yield('title')</title>
     <meta name="description" content="SociaalAI helpt inwoners sterker te staan in een steeds digitalere wereld. We doen dit door Rotterdammers actief mee te laten denken, praten en beslissen over kunstmatige intelligentie.">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body class="bg-gradient-to-br from-[#00811F] to-[#b9eb34]">
@@ -26,9 +26,9 @@
 <nav class="bg-white shadow-md">
     <div class="max-w-6xl mx-auto px-4 py-3 flex justify-center md:justify-between items-center">
         <div class="hidden md:flex space-x-8 font-medium">
-            <a href="{{ url('/') }}" class="text-gray-700 hover:text-[#00811F] transition">Home</a>
+            <a href="{{ url('/') }}" class="text-gray-700 hover:text-[#00811F]  transition"><i class="fa-solid fa-house"></i></a>
             <a href="{{ url('/over') }}" class="text-gray-700 hover:text-[#00811F] transition">Over ons</a>
-            <a href="{{ url('/informatie') }}" class="text-gray-700 hover:text-[#00811F] transition">Verantwoord AI</a>
+            <a href="{{ url('/verantwoord_ai') }}" class="text-gray-700 hover:text-[#00811F] transition">Verantwoord AI</a>
             <a href="{{ url('/agenda') }}" class="text-gray-700 hover:text-[#00811F] transition">Agenda</a>
             <a href="{{ url('/programma') }}" class="text-gray-700 hover:text-[#00811F] transition">Programma</a>
             <a href="{{ url('/initiatief') }}" class="text-gray-700 hover:text-[#00811F] transition">Initiatiefnemers</a>

@@ -1,129 +1,143 @@
-
 @extends("main")
 
-@section("title", "inatiatiefnemers")
+@section("title", "Initiatiefnemers")
 
 @section("content")
 
-
-    <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl mx-auto my-12">
+    {{-- Techniek College Rotterdam --}}
+    <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl min-h-[360px] mx-auto my-12">
         <div class="flex-1">
-        <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-4 py-1 mb-4">
-Over Techniek College Rotterdam
-</span>
+            <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-4 py-1 mb-4">
+                Over Techniek College Rotterdam
+            </span>
+
             <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-900">
-                Techtoniek College Rotterdam
+                Techniek College Rotterdam
             </h2>
+
             <p class="text-gray-700 leading-relaxed mb-4">
-                Zorgt voor betrokkenheid van mbo-studenten en praktische AI-toepassingen
+                Het Techniek College Rotterdam betrekt mbo-studenten actief bij het ontwikkelen van praktische AI-toepassingen.
+                Met projecten, workshops en praktijkgericht onderzoek draagt het college bij aan een toekomst waarin technologie
+                begrijpelijk en toegankelijk is voor iedereen.
             </p>
         </div>
 
         <div class="flex-1">
             <img src="{{ asset('/images/Techniek_college_Rotterdam_logo.png') }}"
-                 alt="AI concept illustration"
-                 class="w-full h-auto shadow-md object-cover">
+                 alt="Techniek College Rotterdam"
+                 class="w-full h-auto shadow-md object-contain">
         </div>
     </section>
 
 
-    <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl mx-auto my-12">
+
+    {{-- Hogeschool Rotterdam --}}
+    <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl min-h-[360px] mx-auto my-12">
 
         <div class="flex-1">
             <img src="{{ asset('/images/Hogeschool_Rotterdam.png') }}"
-                 alt="AI concept illustration"
-                 class="w-full h-auto shadow-md object-cover">
+                 alt="Hogeschool Rotterdam"
+                 class="w-full h-auto shadow-md object-contain">
         </div>
 
         <div class="flex-1">
-        <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-4 py-1 mb-4">
-            Over Hoogeschool Rotterdam
-        </span>
+            <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-4 py-1 mb-4">
+                Over Hogeschool Rotterdam
+            </span>
+
             <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-900">
-               hoogedschool Rotterdam
+                Hogeschool Rotterdam
             </h2>
+
             <p class="text-gray-700 leading-relaxed mb-4">
-                SociaalAI helpt inwoners sterker te staan in een steeds digitalere wereld.
-                We doen dit door Rotterdammers actief mee te laten denken, praten en beslissen over kunstmatige intelligentie.
-            </p>
-            <p class="text-gray-700 leading-relaxed mb-6">
-                Het SociaalAI Lab is een open plek waar bewoners, onderzoekers, ontwerpers en beleidsmakers samenwerken.
-                Samen maken we AI die eerlijk, duidelijk en voor iedereen bruikbaar is.
+                De Hogeschool Rotterdam versterkt digitale vaardigheden van inwoners door onderwijs, onderzoek
+                en praktijkgerichte projecten. Samen met partners wordt gewerkt aan AI-oplossingen die eerlijk,
+                transparant en begrijpelijk zijn.
             </p>
         </div>
     </section>
 
-    <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl mx-auto my-12">
+
+
+    {{-- Gemeente Rotterdam --}}
+    <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl min-h-[360px] mx-auto my-12">
         <div class="flex-1">
-        <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-4 py-1 mb-4">
-over Gemeente Rotterdam
-</span>
+            <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-4 py-1 mb-4">
+                Over Gemeente Rotterdam
+            </span>
+
             <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-900">
-                gemeente Rotterdam
+                Gemeente Rotterdam
             </h2>
+
             <p class="text-gray-700 leading-relaxed mb-4">
-                initiatiefnemer binnen het programma Digitale Inclusie. Met het actieplan Digitale Inclusie wil de gemeente Rotterdammers digitaalvaardig(er) maken. Het actieplan heeft als doel dat alle inwoners veilig, vaardig en volwaardig kunnen deelnemen aan de digitale samenleving. 
+                De gemeente Rotterdam is initiatiefnemer binnen het programma Digitale Inclusie.
+                Met het actieplan zet de gemeente zich in om alle inwoners digitaal vaardiger te maken,
+                zodat iedereen veilig en zelfstandig kan meedoen in de digitale samenleving.
             </p>
         </div>
 
         <div class="flex-1">
             <img src="{{ asset('/images/Gemeente_rotterdam.png') }}"
-                 alt="AI concept illustration"
-                 class="w-full h-auto shadow-md object-cover">
+                 alt="Gemeente Rotterdam"
+                 class="w-full h-auto shadow-md object-contain">
         </div>
     </section>
 
 
-    <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl mx-auto my-12">
+
+    {{-- Erasmus Universiteit Rotterdam --}}
+    <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl min-h-[360px] mx-auto my-12">
 
         <div class="flex-1">
-            <img src="{{ asset('/images/Erasmus_uni.png') }}"
-                 alt="AI concept illustration"
-                 class="w-full h-auto shadow-md object-cover">
+            <img src="{{ asset('/images/Erasmus_uni.png')}}"
+                 alt="Erasmus Universiteit Rotterdam"
+                 class="w-full h-auto max-h-[250px] object-contain shadow-md mx-auto">
+
         </div>
 
         <div class="flex-1">
-        <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-4 py-1 mb-4">
-            Over Erasmus Universiteit Rotterdam
-        </span>
+            <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-4 py-1 mb-4">
+                Over Erasmus Universiteit Rotterdam
+            </span>
+
             <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-900">
                 Erasmus Universiteit Rotterdam
             </h2>
+
             <p class="text-gray-700 leading-relaxed mb-4">
-                SociaalAI helpt inwoners sterker te staan in een steeds digitalere wereld.
-                We doen dit door Rotterdammers actief mee te laten denken, praten en beslissen over kunstmatige intelligentie.
-            </p>
-            <p class="text-gray-700 leading-relaxed mb-6">
-                Het SociaalAI Lab is een open plek waar bewoners, onderzoekers, ontwerpers en beleidsmakers samenwerken.
-                Samen maken we AI die eerlijk, duidelijk en voor iedereen bruikbaar is.
+                De Erasmus Universiteit levert wetenschappelijke kennis en onderzoek over technologie,
+                data-ethiek en maatschappelijke impact. De universiteit draagt bij aan de ontwikkeling
+                van toekomstbestendige en verantwoorde AI-oplossingen.
             </p>
         </div>
     </section>
 
 
 
-    <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl mx-auto my-12">
+    {{-- Erasmus Data --}}
+    <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl min-h-[360px] mx-auto my-12">
+
         <div class="flex-1">
-        <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-4 py-1 mb-4">
-Over Erasmus Data
-</span>
+            <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-4 py-1 mb-4">
+                Over Erasmus Data
+            </span>
+
             <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-900">
-                Erasmus Data
+                Erasmus Data Collaboratory
             </h2>
+
             <p class="text-gray-700 leading-relaxed mb-4">
-                SociaalAI helpt inwoners sterker te staan in een steeds digitalere wereld.
-                We doen dit door Rotterdammers actief mee te laten denken, praten en beslissen over kunstmatige intelligentie.
-            </p>
-            <p class="text-gray-700 leading-relaxed mb-6">
-                Het SociaalAI Lab is een open plek waar bewoners, onderzoekers, ontwerpers en beleidsmakers samenwerken.
-                Samen maken we AI die eerlijk, duidelijk en voor iedereen bruikbaar is.
+                Erasmus Data ondersteunt organisaties en onderzoekers bij het verantwoord verzamelen en gebruiken
+                van data. Door expertise te combineren met maatschappelijke inzichten levert het team een waardevolle
+                bijdrage aan transparante en betrouwbare AI-projecten.
             </p>
         </div>
 
         <div class="flex-1">
             <img src="{{ asset('/images/Erasmus_Data.png') }}"
-                 alt="AI concept illustration"
-                 class="w-full h-auto shadow-md object-cover">
+                 alt="Erasmus Data"
+                 class="w-full h-auto shadow-md object-contain">
         </div>
     </section>
 

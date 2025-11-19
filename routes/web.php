@@ -50,3 +50,22 @@ Route::get('/programma/actie', function () {
 Route::get('/programma/faciliteit', function () {
     return view('programma_faciliteit_lab');
 });
+
+
+use App\Http\Controllers\ContactController;
+
+Route::get('/contact', [ContactController::class, 'showForm'])->name('contact.form');
+Route::post('/contact', [ContactController::class, 'sendContact'])->name('contact.send');
+
+
+use Illuminate\Support\Facades\Mail;
+
+Route::get('/mailtest', function () {
+    Mail::raw('Dit is een test', function ($message) {
+        $message->to('wesselvanos2004@gmail.com')
+            ->subject('Test e-mail');
+    });
+
+    return 'Mail verstuurd!';
+});
+

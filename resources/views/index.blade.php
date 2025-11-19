@@ -47,13 +47,13 @@
             </div>
         </div>
     </div>
-        <section class="flex flex-col md:flex-row items-center mt-2 gap-10 bg-white shadow-lg p-8 max-w-6xl mx-auto my-12">
+        <section class="flex flex-col md:flex-row items-center  gap-10 bg-white shadow-lg p-8 max-w-6xl mx-auto my-12">
         <div class="flex-1">
             <p class="text-2xl md:text-1xl  mb-4 text-gray-900">
             We onderzoeken samen wat kunstmatige intelligentie (AI) betekent voor het dagelijks leven in Rotterdam, en hoe we AI zo kunnen gebruiken dat het bijdraagt aan gelijke kansen voor iedereen.
             Het lab hoort bij het gemeentelijke programma Digitale Inclusie, dat ervoor zorgt dat alle Rotterdammers veilig, vaardig en volwaardig kunnen meedoen in de digitale wereld.
             </p>
-    </section>
+        </section>
 
     <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl mx-auto my-12">
         <div class="flex-1">

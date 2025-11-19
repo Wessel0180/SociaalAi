@@ -25,11 +25,11 @@
 <!-- Navigatie -->
 <nav class="bg-white shadow-md">
     <div class="max-w-6xl mx-auto px-4 py-3 flex justify-center md:justify-between items-center">
-        <div class="hidden md:flex space-x-8 font-medium">
+        <div class="hidden md:flex pr-5 space-x-8 font-medium">
             <a href="{{ url('/') }}" class="text-gray-700 hover:text-[#00811F]  transition"><i class="fa-solid fa-house"></i></a>
-            <a href="{{ url('/over') }}" class="text-gray-700 hover:text-[#00811F] transition">Over ons</a>
-            <a href="{{ url('/verantwoord_ai') }}" class="text-gray-700 hover:text-[#00811F] transition">Verantwoord AI</a>
             <a href="{{ url('/agenda') }}" class="text-gray-700 hover:text-[#00811F] transition">Agenda</a>
+            <a href="{{ url('/over') }}" class="text-gray-700 hover:text-[#00811F] transition">Wie zijn wij?</a>
+            <a href="{{ url('/verantwoord_ai') }}" class="text-gray-700 hover:text-[#00811F] transition">Verantwoorde AI</a>
             <!-- Programma met dropdown -->
             <div class="relative" id="programma-dropdown">
                 <!-- Toggle knop -->
@@ -39,17 +39,17 @@
                     aria-expanded="false"
                     class="flex items-center gap-2 text-gray-700 hover:text-[#00811F] transition font-medium focus:outline-none"
                 >
-                    <span>Programma</span>
+                    <span>Wat doen we?</span>
                     <!-- pijl die roteert bij open -->
-                    <svg id="programma-caret" class="w-4 h-4 transform transition-transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    {{-- <svg id="programma-caret" class="w-4 h-4 transform transition-transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                    </svg>
+                    </svg> --}}
                 </button>
 
                 <!-- Dropdown menu (verborgen standaard) -->
                 <div
                     id="programma-menu"
-                    class="hidden absolute right-0 mt-2 w-56 bg-white border border-gray-200 rounded-lg shadow-lg py-2 z-50 focus:outline-none"
+                    class="hidden absolute top-0 mt-8 w-56 bg-white border border-gray-200 shadow-lg py-2 z-50 focus:outline-none"
                     role="menu"
                     aria-labelledby="programma-toggle"
                 >

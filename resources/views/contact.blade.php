@@ -12,7 +12,7 @@
     <div class="min-h-screen flex flex-col items-center justify-center p-6">
 
         <form action="{{ route('contact.send') }}" method="post"
-              class="bg-white p-8 shadow-lg w-full max-w-md space-y-6 rounded-lg">
+              class="bg-white p-8 shadow-lg w-full max-w-md space-y-6">
             @csrf
 
             <div>
@@ -40,7 +40,7 @@
             </div>
 
             <button type="submit"
-                    class="w-full bg-blue-500 text-white font-medium px-4 py-2 rounded-md hover:bg-blue-600 transition-colors duration-200">
+                    class="w-full bg-[#00811F] text-white font-medium px-4 py-2 rounded-md hover:bg-blue-600 transition-colors duration-200">
                 Verstuur
             </button>
 

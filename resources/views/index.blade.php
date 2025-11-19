@@ -21,7 +21,7 @@
         <!-- Kolom 1 -->
         <div class="space-y-6">
 
-            <div class="bg-white shadow-lg p-6 rounded-xl min-h-[220px] max-w-sm mx-auto mr-5">
+            <div class="bg-white shadow-lg p-6 min-h-[220px] max-w-sm mx-auto mr-5">
                 <h3 class="text-xl text-center font-semibold mb-4">Meedenken</h3>
                 <p class="text-center">
                 Rotterdammers krijgen een stem bij het ontwikkelen en beoordelen van AI.
@@ -30,7 +30,7 @@
         </div>
          <!-- Kolom 2 -->
         <div class="space-y-6">
-            <div class="bg-white shadow-lg p-6 rounded-xl min-h-[220px] max-w-sm mx-auto">
+            <div class="bg-white shadow-lg p-6 min-h-[220px] max-w-sm mx-auto">
                 <h3 class="text-xl text-center font-semibold mb-4">Samen leren</h3>
                 <p class="text-center">
                 We vergroten de kennis over kansen en risico's van AI
@@ -39,7 +39,7 @@
         </div>
         <!-- Kolom 3 -->
           <div class="space-y-6">
-            <div class="bg-white shadow-lg p-6 rounded-xl min-h-[220px] max-w-sm mx-auto ml-5">
+            <div class="bg-white shadow-lg p-6 min-h-[220px] max-w-sm mx-auto ml-5">
                 <h3 class="text-xl text-center font-semibold mb-4">Meedoen</h3>
                 <p class="text-center">
                 We ontwikkelen samen oplossingen die passen bij de waarden van de stad
@@ -49,7 +49,7 @@
     </div>
         <section class="flex flex-col md:flex-row items-center  gap-10 bg-white shadow-lg p-8 max-w-6xl mx-auto my-12">
         <div class="flex-1">
-            <p class="text-2xl md:text-1xl  mb-4 text-gray-900">
+            <p class="text-1xl md:text-1xl  mb-4 text-gray-900">
             We onderzoeken samen wat kunstmatige intelligentie (AI) betekent voor het dagelijks leven in Rotterdam, en hoe we AI zo kunnen gebruiken dat het bijdraagt aan gelijke kansen voor iedereen.
             Het lab hoort bij het gemeentelijke programma Digitale Inclusie, dat ervoor zorgt dat alle Rotterdammers veilig, vaardig en volwaardig kunnen meedoen in de digitale wereld.
             </p>
@@ -61,7 +61,7 @@
             Evenement
         </span>
             <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-900">
-                SociaalAI Inspiratiedag
+                Opening Sociaal AI Lab & Symposium Verantwoord AI-gebruik
             </h2>
            <div class="space-y-4">
                 <div class="flex items-center space-x-3">
@@ -131,6 +131,21 @@
         </div>
     </section>
 {{--Test--}}
+        <div class="flex items-center justify-center">
+            <i class="text-[#cc0033] fa-3x fa-regular fa-envelope-open"></i>
+        </div>
+    <!-- Titel -->
+        <h2 class="text-center text-2xl md:text-xl font-bold text-white mb-2">Neem Contact Op</h2>
+
+        <!-- Tekst -->
+        <p class="text-center text-white-600 mb-4">
+            Heb je vragen of wil je meer weten over het Sociaal AI Lab? Stuur ons een e-mail.
+        </p>
+
+        <!-- E-mailadres -->
+        <a href="mailto:info@sociaalailab.nl" class="text-white font-medium hover:underline flex items-center justify-center gap-2">
+            info@sociaalailab.nl
+        </a>
 
 @endsection
 

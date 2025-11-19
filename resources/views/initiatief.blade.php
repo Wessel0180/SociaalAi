@@ -25,7 +25,7 @@
         <div class="flex-1">
             <img src="{{ asset('/images/Techniek_college_Rotterdam_logo.png') }}"
                  alt="Techniek College Rotterdam"
-                 class="w-full h-auto shadow-md object-contain">
+                 class="w-full h-auto object-contain">
         </div>
     </section>
 
@@ -37,7 +37,7 @@
         <div class="flex-1">
             <img src="{{ asset('/images/Hogeschool_Rotterdam.png') }}"
                  alt="Hogeschool Rotterdam"
-                 class="w-full h-auto shadow-md object-contain">
+                 class="w-full h-auto object-contain">
         </div>
 
         <div class="flex-1">
@@ -80,7 +80,7 @@
         <div class="flex-1">
             <img src="{{ asset('/images/Gemeente_rotterdam.png') }}"
                  alt="Gemeente Rotterdam"
-                 class="w-full h-auto shadow-md object-contain">
+                 class="w-full h-auto object-contain">
         </div>
     </section>
 
@@ -92,7 +92,7 @@
         <div class="flex-1">
             <img src="{{ asset('/images/Erasmus_uni.png')}}"
                  alt="Erasmus Universiteit Rotterdam"
-                 class="w-full h-auto max-h-[250px] object-contain shadow-md mx-auto">
+                 class="w-full h-auto max-h-[250px] object-contain mx-auto">
 
         </div>
 
@@ -137,7 +137,7 @@
         <div class="flex-1">
             <img src="{{ asset('/images/Erasmus_Data.png') }}"
                  alt="Erasmus Data"
-                 class="w-full h-auto shadow-md object-contain">
+                 class="w-full h-auto object-contain">
         </div>
     </section>
 

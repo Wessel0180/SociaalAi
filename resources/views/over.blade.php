@@ -41,33 +41,35 @@
 
     <section class="flex flex-col md:flex-col items-center gap-8 bg-white shadow-lg p-8 max-w-6xl mx-auto my-12">
         <p class="flex-1">
-       <h1>Onze doelen</h1>
+       <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-4 py-1 mb-4">
+           Doelen
+        </span>
 
 
 
         <ul class="list-disc pl-10 space-y-3 marker:text-gray-600">
             <li class="text-gray-700 leading-relaxed">
-                Participatie en inclusie versterken
+                <h2 class="font-bold">Participatie en inclusie versterken</h2></li>
                 Rotterdammers krijgen een stem bij de ontwikkeling van AI en denken mee over wat technologie wel of juist níet moet doen.
             </li>
 
             <li class="text-gray-700 leading-relaxed">
-                Bewustwording en kennis vergroten
+                <h2 class="font-bold">Bewustwording en kennis vergroten</h2>
                 We leren samen wat AI is, wat het kan, en waar we alert op moeten zijn, zodat iedereen beter begrijpt hoe technologie werkt.
             </li>
 
             <li class="text-gray-700 leading-relaxed">
-                Verbinding met maatschappelijke thema’s
+               <h2 class="font-bold"> Verbinding met maatschappelijke thema’s</h2>
                 We koppelen AI aan echte sociale uitdagingen in zorg, onderwijs, werk, veiligheid, duurzaamheid en welzijn.
             </li>
 
             <li class="text-gray-700 leading-relaxed">
-                Werken vanuit publieke waarden
+                <h2 class="font-bold">Werken vanuit publieke waarden</h2>
                 Menselijke waardigheid, gelijkheid, transparantie, privacy, veiligheid en verantwoording staan centraal.
             </li>
 
             <li class="text-gray-700 leading-relaxed">
-                Toegankelijke infrastructuur
+                <h2 class="font-bold">Toegankelijke infrastructuur</h2>
                 Het lab biedt ruimte — fysiek op Hillevliet 90 én digitaal — waar Rotterdammers samen leren, ontdekken en experimenteren met AI.
             </li>
         </ul>

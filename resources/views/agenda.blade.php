@@ -9,7 +9,7 @@
             Evenement
         </span>
             <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-900">
-                SociaalAI Inspiratiedag
+                Opening Sociaal AI Lab & Symposium Verantwoord AI-gebruik
             </h2>
            <div class="space-y-4">
                 <div class="flex items-center space-x-3">
@@ -29,14 +29,14 @@
                     <p class="text-gray-700 pb-3 "><strong> Wat:</strong> Een dag vol workshops en lezingen over de rol van AI in de samenleving. Iedereen is welkom!</p>
                 </div>
             </div>
-                <a href="/event" class="inline-block bg-[#00811F] text-white font-medium px-6 py-2 rounded-full hover:bg-green-700 transition">
+                <a href="/event" class="inline-block bg-[#00811F] text-white font-medium px-6 py-2 hover:bg-green-700 transition">
                     Meer info
                 </a>
             </div>
                <div class="flex-1">
             <img src="{{ asset('/images/Event_AI_foto.jpg') }}"
                  alt="SociaalAI Inspiratiedag"
-                 class="w-full h-64 object-cover rounded-2xl shadow-md">
+                 class="w-full h-64 object-cover shadow-md">
         </div>
         </section>
     <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl mx-auto my-12">
@@ -65,7 +65,7 @@
                     <p class="text-gray-700 pb-3 "><strong> Wat:</strong> Samen met bewoners uit de omgeving van de Hillevliet, onderzoeken studenten wat AI betekent voor de wijk. Ze vertalen dit gezamenlijk (co-creatie) naar een creatief eindresultaat, zoals een muurschildering, publicatie of interviewreeks.  </p>
                 </div>
             </div>
-                <a href="/programa" class="inline-block bg-[#00811F] text-white font-medium px-6 py-2 rounded-full hover:bg-green-700 transition">
+                <a href="/programa" class="inline-block bg-[#00811F] text-white font-medium px-6 py-2 hover:bg-green-700 transition">
                     Meer info
                 </a>
             </div>
@@ -73,7 +73,7 @@
         <div class="flex-1">
             <img src="{{ asset('/images/Event_AI_foto.jpg') }}"
                  alt="SociaalAI Inspiratiedag"
-                 class="w-full h-64 object-cover rounded-2xl shadow-md">
+                 class="w-full h-64 object-cover shadow-md">
         </div>
     </section>
 @endsection

@@ -30,8 +30,6 @@
                 <a href="aanmelder.nl" class="text-[#00811F] underline hover:text-[#006f19]">aanmelder.nl</a>
             </p>
 
-
-
         <div class="text-gray-700 space-y-4">
             <p>
                 Tijdens dit feestelijke evenement openen we officieel de deuren van het Sociaal AI Lab.

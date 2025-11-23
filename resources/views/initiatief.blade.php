@@ -17,10 +17,10 @@
             </p>
         </div>
 
-        <div class="flex-1">
+        <div class="flex-1 flex items-center justify-center">
             <img src="{{ asset('/images/Techniek_College_Rotterdam_logo.png') }}"
                  alt="Techniek College Rotterdam"
-                 class="w-full h-auto object-contain">
+                 class="w-auto h-64 object-cover p-6">
         </div>
     </section>
 
@@ -118,5 +118,7 @@
                 <li class="text-gray-700 leading-relaxed">
                     <h2 class="font-bold">Civic AI Lab Amsterdam</h2>
                 </li>
+                <p>Samen met deze partners werken we aan technologische oplossingen die bijdragen aan het dagelijks leven in Rotterdam. Wij geloven dat technologie pas echt slim is als het ook sociaal is.  </p>
+                <p class="text-[#00811F]" >AI voor Rotterdammers door Rotterdammers.</p>
     </section>
 @endsection

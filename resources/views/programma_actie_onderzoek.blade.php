@@ -82,10 +82,10 @@
                 <h3 class="text-xl font-semibold mb-4">Studenten en bewoners verkennen de sociale invloed van AI</h3>
                 <p class="h-32 m-0">
                     Samen met bewoners uit de omgeving van de Hillevliet, onderzoeken studenten wat AI betekent voor de wijk. Dit vertalen ze gezamenlijk (co-creatie) naar een creatief eindresultaat, zoals een muurschildering, publicatie of interviewreeks.</p>
-                <div class="flex-1">
+                <div class="flex flex-1 items-center justify-center">
                 <img src="{{ asset('/images/wat_doen_we/actie_onderzoek_ontwerp/Wat_doen_we_ Studenten_en_bewoners_verkennen_de_sociale_invloed_van_AI.jpg') }}"
                     alt="SociaalAI Inspiratiedag"
-                    class="w-full h-64 object-cover">
+                    class="w-auto h-64 object-cover">
                 </div>
             </div>
             

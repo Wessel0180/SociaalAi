@@ -22,13 +22,13 @@
         <div class="space-y-6">
 
             <div class="bg-white shadow-lg pt-0 pb-6 min-h-[220px] max-w-sm mx-auto mr-5">
-                <div class="flex-1">
+                 <div class="flex flex-1 items-center justify-center">
             <img src="{{ asset('/images/Meedenken.png') }}"
                  alt="SociaalAI Inspiratiedag"
-                 class="w-full h-64 object-cover">
+                 class="w-auto h-32">
             </div>
-                <h3 class="text-xl text-center font-semibold mb-4">Meedenken</h3>
-                <p class="text-center">
+                <h3 class="text-xl text-center font-semibold">Meedenken</h3>
+                <p class="text-center p-4">
                 Rotterdammers krijgen een stem bij het ontwikkelen en beoordelen van AI.
                 </p>
             </div>
@@ -36,13 +36,13 @@
          <!-- Kolom 2 -->
          <div class="space-y-6">
             <div class="bg-white shadow-lg  pt-0 pb-6 min-h-[220px] max-w-sm mx-auto mr-5">
-                <div class="flex-1">
+                 <div class="flex flex-1 items-center justify-center">
             <img src="{{ asset('/images/Samen_leren.png') }}"
                  alt="SociaalAI Inspiratiedag"
-                 class="w-full h-64 object-cover">
+                class="w-auto h-32">
             </div>
-                <h3 class="text-xl text-center font-semibold mb-4">Samen leren</h3>
-                <p class="text-center">
+                <h3 class="text-xl text-center font-semibold">Samen leren</h3>
+                <p class="text-center p-4">
                  We vergroten de kennis over kansen en risico's van AI
                 </p>
             </div>
@@ -50,13 +50,13 @@
         <!-- Kolom 3 -->
         <div class="space-y-6">
             <div class="bg-white shadow-lg  pt-0 pb-6 min-h-[220px] max-w-sm mx-auto mr-5">
-                <div class="flex-1">
+                <div class="flex flex-1 items-center justify-center">
             <img src="{{ asset('/images/Meedoen.png') }}"
                  alt="SociaalAI Inspiratiedag"
-                 class="w-full h-64 object-cover">
+                 class="w-auto h-32">
             </div>
-                <h3 class="text-xl text-center font-semibold mb-4">Meedoen</h3>
-                <p class="text-center">
+                <h3 class="text-xl text-center font-semibold">Meedoen</h3>
+                <p class="text-center p-4">
                 We ontwikkelen samen oplossingen die passen bij de waarden van de stad
                 </p>
             </div>
@@ -68,6 +68,7 @@
             We onderzoeken samen wat kunstmatige intelligentie (AI) betekent voor het dagelijks leven in Rotterdam, en hoe we AI zo kunnen gebruiken dat het bijdraagt aan <strong>gelijke kansen voor iedereen.</strong>
             Het lab hoort bij het gemeentelijke programma <strong>Digitale Inclusie,</strong> dat ervoor zorgt dat alle Rotterdammers veilig, vaardig en volwaardig kunnen meedoen in de digitale wereld.
             </p>
+            <p class=" text-[#00811F] text-lg">Kunstmatige Intelligentie? Technologie is pas echt slim als ze óók sociaal is.</p>
         </section>
 
     <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl mx-auto my-12">
@@ -122,10 +123,6 @@
                     <p class="text-gray-700"><strong> Wanneer:</strong> 1 november - 1 februari 2025</p>
                 </div>
                 <div class="flex items-center space-x-3">
-                    <i class="fa-regular fa-clock text-[#00811F] text-3xl"></i>
-                    <p class="text-gray-700"><strong>Hoelaat:</strong> XX - XX</p>
-                </div>
-                <div class="flex items-center space-x-3">
                     <i class="fa-solid fa-location-dot text-[#00811F] ml-1 text-3xl"></i>
                     <p class="text-gray-700 ml-1 "><strong>Waar:</strong> Rotterdam - Hillevliet 90</p>
                 </div>
@@ -158,8 +155,8 @@
         </p>
 
         <!-- E-mailadres -->
-        <a href="mailto:info@sociaalailab.nl" class="text-white font-medium hover:underline flex items-center justify-center gap-2">
-            info@sociaalailab.nl
+        <a href="mailto:digitaleinclusie@rotterdam.nl " class="text-white font-medium hover:underline flex items-center justify-center gap-2">
+            digitaleinclusie@rotterdam.nl 
         </a>
 
 @endsection

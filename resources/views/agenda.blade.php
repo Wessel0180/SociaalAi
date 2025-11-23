@@ -53,10 +53,6 @@
                     <p class="text-gray-700"><strong> Wanneer:</strong> 1 november - 1 februari 2025</p>
                 </div>
                 <div class="flex items-center space-x-3">
-                    <i class="fa-regular fa-clock text-[#00811F] text-3xl"></i>
-                    <p class="text-gray-700"><strong>Hoelaat:</strong> XX - XX</p>
-                </div>
-                <div class="flex items-center space-x-3">
                     <i class="fa-solid fa-location-dot text-[#00811F] ml-1 text-3xl"></i>
                     <p class="text-gray-700 ml-1 "><strong>Waar:</strong> Rotterdam - Hillevliet 90</p>
                 </div>
@@ -104,7 +100,7 @@
                         <br><strong>Voor meer informatie zie: www.futuresocietylab.com/updates </strong> </p>
                 </div>
             </div>
-                <a href="/programa" class="inline-block bg-[#00811F] text-white font-medium px-6 py-2 hover:bg-green-700 transition">
+                <a href="/www.futuresocietylab.com/updates" class="inline-block bg-[#00811F] text-white font-medium px-6 py-2 hover:bg-green-700 transition">
                     Meer info
                 </a>
             </div>

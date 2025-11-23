@@ -21,7 +21,12 @@
         <!-- Kolom 1 -->
         <div class="space-y-6">
 
-            <div class="bg-white shadow-lg p-6 min-h-[220px] max-w-sm mx-auto mr-5">
+            <div class="bg-white shadow-lg pt-0 pb-6 min-h-[220px] max-w-sm mx-auto mr-5">
+                <div class="flex-1">
+            <img src="{{ asset('/images/Meedenken.png') }}"
+                 alt="SociaalAI Inspiratiedag"
+                 class="w-full h-64 object-cover">
+            </div>
                 <h3 class="text-xl text-center font-semibold mb-4">Meedenken</h3>
                 <p class="text-center">
                 Rotterdammers krijgen een stem bij het ontwikkelen en beoordelen van AI.
@@ -29,17 +34,27 @@
             </div>
         </div>
          <!-- Kolom 2 -->
-        <div class="space-y-6">
-            <div class="bg-white shadow-lg p-6 min-h-[220px] max-w-sm mx-auto">
+         <div class="space-y-6">
+            <div class="bg-white shadow-lg  pt-0 pb-6 min-h-[220px] max-w-sm mx-auto mr-5">
+                <div class="flex-1">
+            <img src="{{ asset('/images/Samen_leren.png') }}"
+                 alt="SociaalAI Inspiratiedag"
+                 class="w-full h-64 object-cover">
+            </div>
                 <h3 class="text-xl text-center font-semibold mb-4">Samen leren</h3>
                 <p class="text-center">
-                We vergroten de kennis over kansen en risico's van AI
+                 We vergroten de kennis over kansen en risico's van AI
                 </p>
             </div>
         </div>
         <!-- Kolom 3 -->
-          <div class="space-y-6">
-            <div class="bg-white shadow-lg p-6 min-h-[220px] max-w-sm mx-auto ml-5">
+        <div class="space-y-6">
+            <div class="bg-white shadow-lg  pt-0 pb-6 min-h-[220px] max-w-sm mx-auto mr-5">
+                <div class="flex-1">
+            <img src="{{ asset('/images/Meedoen.png') }}"
+                 alt="SociaalAI Inspiratiedag"
+                 class="w-full h-64 object-cover">
+            </div>
                 <h3 class="text-xl text-center font-semibold mb-4">Meedoen</h3>
                 <p class="text-center">
                 We ontwikkelen samen oplossingen die passen bij de waarden van de stad
@@ -50,8 +65,8 @@
         <section class="flex flex-col md:flex-row items-center  gap-10 bg-white shadow-lg p-8 max-w-6xl mx-auto my-12">
         <div class="flex-1">
             <p class="text-1xl md:text-1xl  mb-4 text-gray-900">
-            We onderzoeken samen wat kunstmatige intelligentie (AI) betekent voor het dagelijks leven in Rotterdam, en hoe we AI zo kunnen gebruiken dat het bijdraagt aan gelijke kansen voor iedereen.
-            Het lab hoort bij het gemeentelijke programma Digitale Inclusie, dat ervoor zorgt dat alle Rotterdammers veilig, vaardig en volwaardig kunnen meedoen in de digitale wereld.
+            We onderzoeken samen wat kunstmatige intelligentie (AI) betekent voor het dagelijks leven in Rotterdam, en hoe we AI zo kunnen gebruiken dat het bijdraagt aan <strong>gelijke kansen voor iedereen.</strong>
+            Het lab hoort bij het gemeentelijke programma <strong>Digitale Inclusie,</strong> dat ervoor zorgt dat alle Rotterdammers veilig, vaardig en volwaardig kunnen meedoen in de digitale wereld.
             </p>
         </section>
 
@@ -87,9 +102,9 @@
             </div>
 
         <div class="flex-1">
-            <img src="{{ asset('/images/Event_AI_foto.jpg') }}"
+            <img src="{{ asset('/images/event/Agenda_event_1.png') }}"
                  alt="SociaalAI Inspiratiedag"
-                 class="w-full h-64 object-cover shadow-md">
+                 class="w-full object-cover shadow-md">
         </div>
     </section>
 
@@ -125,7 +140,7 @@
             </div>
 
         <div class="flex-1">
-            <img src="{{ asset('/images/Event_AI_foto.jpg') }}"
+            <img src="{{ asset('/images/event/Agenda_event_2_Studenten_en_bewoners_verkennen_de_sociale_invloed_van_AI.jpg') }}"
                  alt="SociaalAI Inspiratiedag"
                  class="w-full h-64 object-cover shadow-md">
         </div>

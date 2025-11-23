@@ -9,7 +9,7 @@
             <h1 class="font-bold text-2xl">De Maatschappelijke Code voor Verantwoorde AI</h1>
             <p class="text-1xl md:text-1xl  mb-4 text-gray-900">
             Het Sociaal AI Lab werkt volgens de Rotterdamse Maatschappelijke Code voor Verantwoorde AI. 
-            Deze afgesproken regels zorgt ervoor dat technologie in onze stad eerlijk, veilig en mensgericht blijft.
+            Deze afgesproken regels zorgen ervoor dat technologie in onze stad eerlijk, veilig en mensgericht blijft.
             Het is een document dat we blijven aanvullen, terwijl we samen leren en inzichten opdoen in het lab. 
             Het vormt een kader voor alle projecten en activiteiten. 
             </p>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    @vite('resources/css/app.css')
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
     <title>@yield('title')</title>
     <meta name="description" content="SociaalAI helpt inwoners sterker te staan in een steeds digitalere wereld. We doen dit door Rotterdammers actief mee te laten denken, praten en beslissen over kunstmatige intelligentie.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -28,9 +28,8 @@
         <div class="hidden md:flex pr-5 space-x-8 font-medium">
             <a href="{{ url('/') }}" class="text-gray-700 hover:text-[#00811F]  transition"><i class="fa-solid fa-house"></i></a>
             <a href="{{ url('/agenda') }}" class="text-gray-700 hover:text-[#00811F] transition">Agenda</a>
-            <a href="{{ url('/over') }}" class="text-gray-700 hover:text-[#00811F] transition">Wie zijn wij?</a>
-            <a href="{{ url('/verantwoord_ai') }}" class="text-gray-700 hover:text-[#00811F] transition">Verantwoorde AI</a>
-            <!-- Programma met dropdown -->
+            <a href="{{ url('/over') }}" class="text-gray-700 hover:text-[#00811F] transition">Wie zijn we?</a>
+                       <!-- Programma met dropdown -->
             <div class="relative" id="programma-dropdown">
                 <!-- Toggle knop -->
                 <button
@@ -54,14 +53,14 @@
                     aria-labelledby="programma-toggle"
                 >
                     <!-- Elke link is role=menuitem voor a11y -->
-                    <a href="{{ url('/programma/kennis') }}" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" role="menuitem">Kennis vaardigheden</a>
-                    <a href="{{ url('/programma/actie') }}" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" role="menuitem">Actie, onderzoek en ontwerp</a>
+                    <a href="{{ url('/programma/kennis') }}" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" role="menuitem">Kennis & vaardigheden</a>
+                    <a href="{{ url('/programma/actie') }}" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" role="menuitem">Actie, onderzoek & ontwerp</a>
                     <a href="{{ url('/programma/faciliteit') }}" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" role="menuitem">Faciliteit van het Lab
                     </a>
                     <!-- voeg meer items toe naar behoefte -->
                 </div>
             </div>
-
+            <a href="{{ url('/verantwoord_ai') }}" class="text-gray-700 hover:text-[#00811F] transition">Verantwoorde AI</a>
             <a href="{{ url('/initiatief') }}" class="text-gray-700 hover:text-[#00811F] transition">Initiatiefnemers</a>
             <a href="{{ url('/contact') }}" class="text-gray-700 hover:text-[#00811F] transition">Contact</a>
         </div>
@@ -73,11 +72,11 @@
     @yield('content')
 </main>
 
-<footer class="bg-white py-12 mt-16 shadow-inner">
-    <div class="flex justify-evenly items-center space-x-4 mb-8">
+<footer class="bg-white mt-16 shadow-inner">
+    <div class="flex justify-evenly py-6 items-center space-x-4">
 
         <div class="w-32 h-20 flex items-center justify-center">
-            <img alt="logo techniek collage Rotterdam" src="{{ asset('/images/Techniek_college_Rotterdam_logoOP.png') }}" class="max-w-full max-h-full object-contain">
+            <img alt="logo techniek collage Rotterdam" src="{{ asset('/images/Techniek_College_Rotterdam_logoOP.png') }}" class="max-w-full max-h-full object-contain">
         </div>
 
         <div class="w-32 h-20 flex items-center justify-center">
@@ -85,7 +84,7 @@
         </div>
 
         <div class="w-32 h-20 flex items-center justify-center">
-            <img alt="logo gemeente Rotterdam " src="{{ asset('/images/Gemeente_rotterdam.png') }}" class="max-w-full max-h-full object-contain">
+            <img alt="logo gemeente Rotterdam " src="{{ asset('/images/Gemeente_Rotterdam.png') }}" class="max-w-full max-h-full object-contain">
         </div>
 
         <div class="w-32 h-20 flex items-center justify-center">

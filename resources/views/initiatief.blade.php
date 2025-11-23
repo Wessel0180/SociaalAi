@@ -7,14 +7,9 @@
     {{-- Techniek College Rotterdam --}}
     <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl min-h-[360px] mx-auto my-12">
         <div class="flex-1">
-            <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-4 py-1 mb-4">
-                Over Techniek College Rotterdam
-            </span>
-
             <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-900">
                 Techniek College Rotterdam
             </h2>
-
             <p class="text-gray-700 leading-relaxed mb-4">
                 Het Techniek College Rotterdam betrekt mbo-studenten actief bij het ontwikkelen van praktische AI-toepassingen.
                 Met projecten, workshops en praktijkgericht onderzoek draagt het college bij aan een toekomst waarin technologie
@@ -23,13 +18,11 @@
         </div>
 
         <div class="flex-1">
-            <img src="{{ asset('/images/Techniek_college_Rotterdam_logo.png') }}"
+            <img src="{{ asset('/images/Techniek_College_Rotterdam_logo.png') }}"
                  alt="Techniek College Rotterdam"
                  class="w-full h-auto object-contain">
         </div>
     </section>
-
-
 
     {{-- Hogeschool Rotterdam --}}
     <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl min-h-[360px] mx-auto my-12">
@@ -41,35 +34,22 @@
         </div>
 
         <div class="flex-1">
-            <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-4 py-1 mb-4">
-                Over Hogeschool Rotterdam
-            </span>
-
             <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-900">
                 Hogeschool Rotterdam
             </h2>
 
             <p class="text-gray-700 leading-relaxed mb-4">
-                De Hogeschool Rotterdam versterkt digitale vaardigheden van inwoners door onderwijs, onderzoek
-                en praktijkgerichte projecten. Samen met partners wordt gewerkt aan AI-oplossingen die eerlijk,
-                transparant en begrijpelijk zijn.
-            </p>
+                De Hogeschool Rotterdam doet praktijkgericht onderzoek om kennis en innovaties te ontwikkelen met die direct toe te passen is in de praktijk.'
+                Onder meer door mensen direct vanaf het begin te betrekken in het ontwerpproces van digitale toepassingen (co-design) en samen met Rotterdammers te experimenteren door prototypes te maken (civic prototyping).
         </div>
     </section>
-
-
 
     {{-- Gemeente Rotterdam --}}
     <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl min-h-[360px] mx-auto my-12">
         <div class="flex-1">
-            <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-4 py-1 mb-4">
-                Over Gemeente Rotterdam
-            </span>
-
             <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-900">
                 Gemeente Rotterdam
             </h2>
-
             <p class="text-gray-700 leading-relaxed mb-4">
                 De gemeente Rotterdam is initiatiefnemer binnen het programma Digitale Inclusie.
                 Met het actieplan zet de gemeente zich in om alle inwoners digitaal vaardiger te maken,
@@ -78,7 +58,7 @@
         </div>
 
         <div class="flex-1">
-            <img src="{{ asset('/images/Gemeente_rotterdam.png') }}"
+            <img src="{{ asset('/images/Gemeente_Rotterdam.png') }}"
                  alt="Gemeente Rotterdam"
                  class="w-full h-auto object-contain">
         </div>
@@ -93,52 +73,50 @@
             <img src="{{ asset('/images/Erasmus_uni.png')}}"
                  alt="Erasmus Universiteit Rotterdam"
                  class="w-full h-auto max-h-[250px] object-contain mx-auto">
-
         </div>
 
         <div class="flex-1">
-            <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-4 py-1 mb-4">
-                Over Erasmus Universiteit Rotterdam
-            </span>
-
             <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-900">
                 Erasmus Universiteit Rotterdam
             </h2>
 
             <p class="text-gray-700 leading-relaxed mb-4">
-                De Erasmus Universiteit levert wetenschappelijke kennis en onderzoek over technologie,
-                data-ethiek en maatschappelijke impact. De universiteit draagt bij aan de ontwikkeling
-                van toekomstbestendige en verantwoorde AI-oplossingen.
-            </p>
+                De Erasmus Universiteit onderzoekt hoe mensen en technologie beter kunnen samenwerken en wil via onder andere co-creatie bijdragen aan het verantwoord gebruik van AI met aandacht voor sociale en economische waarde. Het <strong>Erasmus Centre for Data Analytics (ECDA) </strong>is hierin de trekker en verbindt wetenschap, bedrijfsleven en overheid rond de gevolgen van data, kunstmatige intelligentie, en digitalisering. Het doel is om AI te stimuleren die waardevol is voor de samenleving.</p>
         </div>
     </section>
-
-
-
-    {{-- Erasmus Data --}}
+    
     <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl min-h-[360px] mx-auto my-12">
-
-        <div class="flex-1">
-            <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-4 py-1 mb-4">
-                Over Erasmus Data
-            </span>
-
-            <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-900">
-                Erasmus Data Collaboratory
-            </h2>
-
-            <p class="text-gray-700 leading-relaxed mb-4">
-                Erasmus Data ondersteunt organisaties en onderzoekers bij het verantwoord verzamelen en gebruiken
-                van data. Door expertise te combineren met maatschappelijke inzichten levert het team een waardevolle
-                bijdrage aan transparante en betrouwbare AI-projecten.
-            </p>
-        </div>
-
-        <div class="flex-1">
-            <img src="{{ asset('/images/Erasmus_Data.png') }}"
-                 alt="Erasmus Data"
-                 class="w-full h-auto object-contain">
-        </div>
+    <ul class="list-disc pl-10 space-y-3 marker:text-gray-600 items-center">
+            <h1>Vanaf het begin werken we hierin nauw samen met diverse sociale en technologie partners, waaronder:</h1>
+                <li class="text-gray-700 leading-relaxed">
+                    <h2 class="font-bold">Wijkwijs</h2>
+                </li>
+                <li class="text-gray-700 leading-relaxed">
+                    <h2 class="font-bold">Netwerk Digitale Inclusie</h2>
+                </li>
+                <li class="text-gray-700 leading-relaxed">
+                    <h2 class="font-bold">Bibliotheek</h2>
+                </li>
+                <li class="text-gray-700 leading-relaxed">
+                    <h2 class="font-bold">Trefpunt Vreewijk</h2>
+                </li>
+                <li class="text-gray-700 leading-relaxed">
+                    <h2 class="font-bold">De Buurtouders010</h2>
+                </li>
+                <li class="text-gray-700 leading-relaxed">
+                    <h2 class="font-bold">Equals</h2>
+                </li>
+                <li class="text-gray-700 leading-relaxed">
+                    <h2 class="font-bold">Future Society Lab</h2>
+                </li>
+                <li class="text-gray-700 leading-relaxed">
+                    <h2 class="font-bold">Parai</h2>
+                </li>
+                <li class="text-gray-700 leading-relaxed">
+                    <h2 class="font-bold">Mascotte.ai</h2>
+                </li>
+                <li class="text-gray-700 leading-relaxed">
+                    <h2 class="font-bold">Civic AI Lab Amsterdam</h2>
+                </li>
     </section>
-
 @endsection

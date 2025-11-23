@@ -7,10 +7,16 @@
     <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl mx-auto my-12">
         <div class="flex-1">
         <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-4 py-1 mb-4">
-            Visie
+            Voor wie is het Sociaal AI Lab?
         </span>
             <p class="text-gray-700 leading-relaxed mb-4">
-                Het Sociaal AI Lab Rotterdam versterkt de positie van inwoners in een steeds digitalere samenleving. We doen dat door Rotterdammers actief te betrekken bij het ontwikkelen, begrijpen en beoordelen van AI-toepassingen die invloed hebben op hun leven. Het lab is een ontmoetingsplek waar kennis en praktijk samenkomen. Hier leren we van elkaar, delen we ervaringen en maken we technologie die werkt vóór en mét de stad.
+                <strong>Het Lab is er voor:</strong><br>
+            <ul>
+                <li>1. Rotterdammers die geraakt worden door digitale ontwikkelingen, maar niet altijd worden betrokken bij besluitvorming.</li>
+                <li>2. Burgers die meer over AI willen weten, zoals betrokken denkers en doeners die actief zijn in het sociaal domein en die willen bijdragen aan de digitale toekomst van de stad. </li>
+                <li>3. Inwoners die veel werken met AI en hun kennis met andere Rotterdammers willen delen.</li>
+                <li>4.  Experts die samen met andere Rotterdammers willen ontdekken wat AI voor hen kan betekenen en hoe inwoners AI (willen) gebruiken.</li>
+            </ul>
             </p>
         </div>
 
@@ -30,26 +36,42 @@
 
         <div class="flex-1">
         <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-4 py-1 mb-4">
-            Missie
+            Wat willen we met het Sociaal AI Lab?
         </span>
             <p class="text-gray-700 leading-relaxed mb-4">
-                Technologie heeft pas echt waarde als die bijdraagt aan een samenleving waarin iedereen mee kan doen. In het Sociaal AI Lab werken we aan een digitale stad die recht doet aan iedereen. We willen dat álle Rotterdammers, juist ook degenen die vaak minder gehoord worden, invloed hebben op hoe technologie wordt gebruikt.
-                Daarom organiseren we gesprekken, workshops, experimenten en ontwerpsessies waarin inwoners, ontwerpers en onderzoekers samen keuzes maken over hoe AI bijdraagt aan onze stad.
-            </p>
+             Het Sociaal AI Lab Rotterdam versterkt de positie van inwoners in een steeds digitalere samenleving. We doen dat door Rotterdammers actief te betrekken bij het ontwikkelen, begrijpen en beoordelen van AI-toepassingen die invloed hebben op hun leven. Het lab is een ontmoetingsplek waar kennis en praktijk samenkomen. Hier leren we van elkaar, delen we ervaringen en maken we technologie die werkt vóór en mét de stad.</p>
         </div>
     </section>
 
-    <section class="flex flex-col md:flex-col items-center gap-8 bg-white shadow-lg p-8 max-w-6xl mx-auto my-12">
+    <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl mx-auto my-12">
+        <div class="flex-1">
+        <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-4 py-1 mb-4">
+        Hoe willen we dat doen?
+        </span>
+            <p class="text-gray-700 leading-relaxed mb-4">
+            Technologie heeft pas echt waarde als die bijdraagt aan een samenleving waarin iedereen mee kan doen. In het Sociaal AI Lab werken we aan een digitale stad die recht doet aan iedereen. We willen dat álle Rotterdammers, juist ook degenen die vaak minder gehoord worden, invloed hebben op hoe technologie wordt gebruikt.
+            Daarom organiseren we gesprekken, workshops, experimenten en ontwerpsessies waarin inwoners, ontwerpers en onderzoekers samen keuzes maken over hoe AI bijdraagt aan onze stad.
+            </p>
+        </div>
+
+{{--        <div class="flex-1">--}}
+{{--            <img src="{{ asset('/images/aifoto.jpg') }}"--}}
+{{--                 alt="AI concept illustration"--}}
+{{--                 class="w-full h-auto shadow-md object-cover">--}}
+{{--        </div>--}}
+    </section>
+
+    <section class="flex flex-col md:flex-col  gap-8 bg-white shadow-lg p-8 max-w-6xl mx-auto my-12">
         <p class="flex-1">
        <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-4 py-1 mb-4">
-           Doelen
+           Wat zijn onze doelen?
         </span>
 
 
 
-        <ul class="list-disc pl-10 space-y-3 marker:text-gray-600">
+        <ul class="list-disc pl-10 space-y-3 marker:text-gray-600 items-center">
             <li class="text-gray-700 leading-relaxed">
-                <h2 class="font-bold">Participatie en inclusie versterken</h2></li>
+                <h2 class="font-bold">Participatie en inclusie versterken</h2>
                 Rotterdammers krijgen een stem bij de ontwikkeling van AI en denken mee over wat technologie wel of juist níet moet doen.
             </li>
 
@@ -65,16 +87,12 @@
 
             <li class="text-gray-700 leading-relaxed">
                 <h2 class="font-bold">Werken vanuit publieke waarden</h2>
-                Menselijke waardigheid, gelijkheid, transparantie, privacy, veiligheid en verantwoording staan centraal.
-            </li>
-
-            <li class="text-gray-700 leading-relaxed">
+               In alles wat we doen staan menselijke waardigheid, gelijkheid, transparantie, privacy, veiligheid en verantwoording centraal. </li>
+            
+           <li class="text-gray-700 leading-relaxed">
                 <h2 class="font-bold">Toegankelijke infrastructuur</h2>
-                Het lab biedt ruimte — fysiek op Hillevliet 90 én digitaal — waar Rotterdammers samen leren, ontdekken en experimenteren met AI.
-            </li>
+               Het lab biedt ruimte, fysiek op Hillevliet 90 én digitaal, waar Rotterdammers samen kunnen leren, ontdekken en experimenteren met AI. </li>
         </ul>
-
-
     </section>
 {{--Test--}}
 

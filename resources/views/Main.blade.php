@@ -26,7 +26,7 @@
 <!-- Navigatie -->
 <nav class="bg-white shadow-md">
     <div class="max-w-6xl mx-auto px-4 py-3 flex justify-center md:justify-between items-center">
-        <div class="hidden md:flex pr-5 space-x-8 font-medium">
+        <div class="md:flex pr-5 space-x-8 font-medium">
             <a href="{{ url('/') }}" class="text-gray-700 hover:text-[#00811F]  transition"><i class="fa-solid fa-house"></i></a>
             <a href="{{ url('/agenda') }}" class="text-gray-700 hover:text-[#00811F] transition">Agenda</a>
             <a href="{{ url('/over') }}" class="text-gray-700 hover:text-[#00811F] transition">Wie zijn we?</a>

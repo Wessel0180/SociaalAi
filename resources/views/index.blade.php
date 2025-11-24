@@ -155,7 +155,7 @@
         </p>
 
         <!-- E-mailadres -->
-        <a href="mailto:digitaleinclusie@rotterdam.nl " class="text-white font-medium hover:underline flex items-center justify-center gap-2">
+        <a href="mailto:digitaleinclusie@rotterdam.nl" class="text-white font-medium hover:underline flex items-center justify-center gap-2">
             digitaleinclusie@rotterdam.nl 
         </a>
 

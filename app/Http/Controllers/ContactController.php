@@ -30,8 +30,7 @@ class ContactController extends Controller
         Mail::raw(
             "Naam: {$data['name']}\nE-mail: {$data['email']}\nTelefoon: {$data['phone']}\n\nBericht:\n{$data['message']}",
             function ($message) use ($data) {
-//                andere mail verandere dit test
-                $message->to('wesselvanos2004@gmail.com')
+                $message->to('digitaleinclusie@rotterdam.nl')
                     ->subject("Nieuw contactformulier bericht van {$data['name']}")
                     ->replyTo($data['email']);
             }

@@ -1,0 +1,17 @@
+services:
+  php:
+    build:
+      context: resources/docker/php
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./:/app
+  pgsql:
+    image: postgres:13-alpine
+    volumes:
+      - ./resources/docker/db-data:/var/lib/postgresql/data:delegated
+    environment:
+      - POSTGRES_DB=app
+      - POSTGRES_USER=app
+      - POSTGRES_PASSWORD=secret

@@ -26,10 +26,10 @@
 <!-- Navigatie -->
 <nav class="bg-white shadow-md">
     <div class="max-w-6xl mx-auto px-4 py-3 flex justify-center md:justify-between items-center">
-        <div class="hidden md:flex pr-5 space-x-8 font-medium">
-            <a href="{{ url('/') }}" class="text-gray-700 hover:text-[#00811F]  transition"><i class="fa-solid fa-house"></i></a>
+        <div class="md:flex pr-5 space-x-8 font-medium">
+            <a href="{{ url('/') }}" class="text-gray-700 hover:text-[#00811F]  transition"><i class="fa-solid fa-house"></i> Voorpagina</a>
             <a href="{{ url('/agenda') }}" class="text-gray-700 hover:text-[#00811F] transition">Agenda</a>
-            <a href="{{ url('/over') }}" class="text-gray-700 hover:text-[#00811F] transition">Wie zijn we?</a>
+            <a href="{{ url('/over') }}" class="text-gray-700 hover:text-[#00811F] transition">Voor wie?</a>
                        <!-- Programma met dropdown -->
             <div class="relative" id="programma-dropdown">
                 <!-- Toggle knop -->
@@ -61,8 +61,8 @@
                     <!-- voeg meer items toe naar behoefte -->
                 </div>
             </div>
-            <a href="{{ url('/verantwoord_ai') }}" class="text-gray-700 hover:text-[#00811F] transition">Verantwoorde AI</a>
-            <a href="{{ url('/initiatief') }}" class="text-gray-700 hover:text-[#00811F] transition">Initiatiefnemers</a>
+            <a href="{{ url('/verantwoord-ai') }}" class="text-gray-700 hover:text-[#00811F] transition">Verantwoorde AI</a>
+            <a href="{{ url('/wie-zijn-we') }}" class="text-gray-700 hover:text-[#00811F] transition">Wie zijn we?</a>
             <a href="{{ url('/contact') }}" class="text-gray-700 hover:text-[#00811F] transition">Contact</a>
         </div>
     </div>

@@ -76,7 +76,7 @@
                     Leuke lessen waarin basisschoolleerlingen op een speelse manier kennismaken met kunstmatige intelligentie. Ze worden geprikkeld om nieuwsgierig te zijn, creatief te denken en tegelijkertijd te oefenen met digitale vaardigheden.
                 </p>
                 <div class="flex-1">
-                <img src="{{ asset('/images/wat_doen_we/kennis_vaardigheden/Wat_doen_we_AI_in_het_basisonderwijs.png') }}"
+                <img src="{{ asset('/images/wat_doen_we/kennis_vaardigheden/Basisschool.jpg') }}"
                     alt="SociaalAI Inspiratiedag"
                     class="w-full h-64 object-cover">
                 </div>

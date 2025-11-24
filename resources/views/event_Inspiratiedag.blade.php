@@ -46,9 +46,7 @@
         </div>
     </div>
 
-
-
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 p-6">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
         <div class="space-y-6">
 {{--kolom1--}}
@@ -64,7 +62,7 @@
                 <div class="bg-white shadow-lg p-6 min-h-[150px] max-w-sm mx-auto">
 
                     <p>
-                        •	In contact komen met gelijkgestemde Rotterdammers, zoals professionals die actief zijn in het sociaal domein, onderzoekers en ontwerpers.
+                    In contact komen met gelijkgestemde Rotterdammers, zoals professionals die actief zijn in het sociaal domein, onderzoekers en ontwerpers.
                     </p>
                 </div>
             </div>
@@ -72,9 +70,9 @@
                 <div class="space-y-6">
 
                     <div class="bg-white shadow-lg p-6 min-h-[150px] max-w-sm mx-auto">
-                        <h3 class="text-xl font-semibold mb-4"></h3>
+                        <h3 class="text-xl font-semibold "></h3>
                         <p>
-                            •	Meedoen aan workshops en demo’s, zoals Digiderius, de AI Lab-kar en AI-prototypes van studenten
+                        Meedoen aan workshops en demo’s, zoals Digiderius, de AI Lab-kar en AI-prototypes van studenten
                         </p>
 
                     </div>

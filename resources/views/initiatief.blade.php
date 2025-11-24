@@ -4,26 +4,26 @@
 
 @section("content")
 
-    {{-- Techniek College Rotterdam --}}
+     {{-- Gemeente Rotterdam --}}
     <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl min-h-[360px] mx-auto my-12">
         <div class="flex-1">
             <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-900">
-                Techniek College Rotterdam
+                Gemeente Rotterdam
             </h2>
             <p class="text-gray-700 leading-relaxed mb-4">
-                Het Techniek College Rotterdam betrekt mbo-studenten actief bij het ontwikkelen van praktische AI-toepassingen.
-                Met projecten, workshops en praktijkgericht onderzoek draagt het college bij aan een toekomst waarin technologie
-                begrijpelijk en toegankelijk is voor iedereen.
+                De gemeente Rotterdam is initiatiefnemer binnen het programma Digitale Inclusie.
+                Met het actieplan zet de gemeente zich in om alle inwoners digitaal vaardiger te maken,
+                zodat iedereen veilig en zelfstandig kan meedoen in de digitale samenleving.
             </p>
         </div>
 
-        <div class="flex-1 flex items-center justify-center">
-            <img src="{{ asset('/images/Techniek_College_Rotterdam_logo.png') }}"
-                 alt="Techniek College Rotterdam"
-                 class="w-auto h-64 object-cover p-6">
+        <div class="flex-1">
+            <img src="{{ asset('/images/Gemeente_Rotterdam.png') }}"
+                 alt="Gemeente Rotterdam"
+                 class="w-full h-auto object-contain">
         </div>
     </section>
-
+    
     {{-- Hogeschool Rotterdam --}}
     <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl min-h-[360px] mx-auto my-12">
 
@@ -44,27 +44,25 @@
         </div>
     </section>
 
-    {{-- Gemeente Rotterdam --}}
+       {{-- Techniek College Rotterdam --}}
     <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl min-h-[360px] mx-auto my-12">
         <div class="flex-1">
             <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-900">
-                Gemeente Rotterdam
+                Techniek College Rotterdam
             </h2>
             <p class="text-gray-700 leading-relaxed mb-4">
-                De gemeente Rotterdam is initiatiefnemer binnen het programma Digitale Inclusie.
-                Met het actieplan zet de gemeente zich in om alle inwoners digitaal vaardiger te maken,
-                zodat iedereen veilig en zelfstandig kan meedoen in de digitale samenleving.
+                Het Techniek College Rotterdam betrekt mbo-studenten actief bij het ontwikkelen van praktische AI-toepassingen.
+                Met projecten, workshops en praktijkgericht onderzoek draagt het college bij aan een toekomst waarin technologie
+                begrijpelijk en toegankelijk is voor iedereen.
             </p>
         </div>
 
-        <div class="flex-1">
-            <img src="{{ asset('/images/Gemeente_Rotterdam.png') }}"
-                 alt="Gemeente Rotterdam"
-                 class="w-full h-auto object-contain">
+        <div class="flex-1 flex items-center justify-center">
+            <img src="{{ asset('/images/Techniek_College_Rotterdam_logo.png') }}"
+                 alt="Techniek College Rotterdam"
+                 class="w-auto h-64 object-cover p-6">
         </div>
     </section>
-
-
 
     {{-- Erasmus Universiteit Rotterdam --}}
     <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl min-h-[360px] mx-auto my-12">

@@ -12,10 +12,10 @@
             <p class="text-gray-700 leading-relaxed mb-4">
                 <strong>Het Lab is er voor:</strong><br>
             <ul>
-                <li>1. Rotterdammers die geraakt worden door digitale ontwikkelingen, maar niet altijd worden betrokken bij besluitvorming.</li>
-                <li>2. Burgers die meer over AI willen weten, zoals betrokken denkers en doeners die actief zijn in het sociaal domein en die willen bijdragen aan de digitale toekomst van de stad. </li>
-                <li>3. Inwoners die veel werken met AI en hun kennis met andere Rotterdammers willen delen.</li>
-                <li>4.  Experts die samen met andere Rotterdammers willen ontdekken wat AI voor hen kan betekenen en hoe inwoners AI (willen) gebruiken.</li>
+                <li>a. Rotterdammers die geraakt worden door digitale ontwikkelingen, maar niet altijd worden betrokken bij besluitvorming.</li>
+                <li>b. Burgers die meer over AI willen weten, zoals betrokken denkers en doeners die actief zijn in het sociaal domein en die willen bijdragen aan de digitale toekomst van de stad. </li>
+                <li>c. Inwoners die veel werken met AI en hun kennis met andere Rotterdammers willen delen.</li>
+                <li>d.  Experts die samen met andere Rotterdammers willen ontdekken wat AI voor hen kan betekenen en hoe inwoners AI (willen) gebruiken.</li>
             </ul>
             </p>
         </div>
@@ -69,7 +69,7 @@
 
 
 
-        <ul class="list-disc pl-10 space-y-3 marker:text-gray-600 items-center">
+        <ul class="list-decimal pl-10 space-y-3 marker:text-gray-600 items-center">
             <li class="text-gray-700 leading-relaxed">
                 <h2 class="font-bold">Participatie en inclusie versterken</h2>
                 Rotterdammers krijgen een stem bij de ontwikkeling van AI en denken mee over wat technologie wel of juist níet moet doen.

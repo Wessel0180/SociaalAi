@@ -61,15 +61,12 @@
                     <p class="text-gray-700 pb-3 "><strong> Wat:</strong> Samen met bewoners uit de omgeving van de Hillevliet, onderzoeken studenten wat AI betekent voor de wijk. Ze vertalen dit gezamenlijk (co-creatie) naar een creatief eindresultaat, zoals een muurschildering, publicatie of interviewreeks.  </p>
                 </div>
             </div>
-                <a href="/programa" class="inline-block bg-[#00811F] text-white font-medium px-6 py-2 hover:bg-green-700 transition">
-                    Meer info
-                </a>
             </div>
 
         <div class="flex-1">
             <img src="{{ asset('/images/event/Agenda_event_2_Studenten_en_bewoners_verkennen_de_sociale_invloed_van_AI.jpg') }}"
                  alt="SociaalAI Inspiratiedag"
-                 class="w-full h-64 object-cover shadow-md">
+                 class="w-full h-auto object-cover shadow-md">
         </div>
     </section>
 
@@ -100,7 +97,7 @@
                         <br><strong>Voor meer informatie zie: www.futuresocietylab.com/updates </strong> </p>
                 </div>
             </div>
-                <a href="/www.futuresocietylab.com/updates" class="inline-block bg-[#00811F] text-white font-medium px-6 py-2 hover:bg-green-700 transition">
+                <a href="//www.futuresocietylab.com/updates" class="inline-block bg-[#00811F] text-white font-medium px-6 py-2 hover:bg-green-700 transition">
                     Meer info
                 </a>
             </div>

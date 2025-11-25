@@ -29,7 +29,7 @@
                     <p class="text-gray-700 pb-3 "><strong> Wat:</strong> Een dag vol workshops en lezingen over de rol van AI in de samenleving. Iedereen is welkom!</p>
                 </div>
             </div>
-                <a href="/event" class="inline-block bg-[#00811F] text-white font-medium px-6 py-2 hover:bg-green-700 transition">
+                <a  href="//170492.aanmelder.nl/home" class="inline-block bg-[#00811F] text-white font-medium px-6 py-2 hover:bg-green-700 transition">
                     Meer info
                 </a>
             </div>
@@ -70,8 +70,8 @@
         </div>
     </section>
 
-     <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl mx-auto my-12">
-        <div class="flex-1">
+      <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl mx-auto my-12">
+        <div class="flex-1 max-w-full md:max-w-2xl mx-auto">
         <span class="inline-block bg-[#00811F] text-white text-sm font-medium px-4 py-1 mb-4">
             Evenement
         </span>
@@ -93,8 +93,7 @@
                 </div>
                 <div class="flex mb-6 space-x-3">
                     <i class="fa-solid fa-bullseye text-[#00811F] text-3xl"></i>
-                    <p class="text-gray-700 pb-3 "><strong> Wat:</strong> Wat betekent het om mens te zijn in een wereld vol algoritmes, avatars en kunstmatige intelligentie? Die vraag staat centraal tijdens de meet-up van het Future Society Lab in Rotterdam. Tijdens deze bijeenkomst gaan experts en deelnemers met elkaar in gesprek over drie belangrijke thema’s: verbinding, verantwoordelijkheid en veerkracht.
-                        <br><strong>Voor meer informatie zie: www.futuresocietylab.com/updates </strong> </p>
+                    <p class="text-gray-700 pb-3 w-auto"><strong> Wat:</strong>Wat betekent het om mens te zijn in een wereld vol algoritmes, avatars en kunstmatige intelligentie? Die vraag staat centraal tijdens de meet-up van het future Society Lab in Rotterdam. Tijdens deze bijeenkomst gaan experts en deelnemers met elkaar in gesprek over drie belangrijke thema's: verbinding, verantwoordelijkheid en veerkracht.</p>
                 </div>
             </div>
                 <a href="//www.futuresocietylab.com/updates" class="inline-block bg-[#00811F] text-white font-medium px-6 py-2 hover:bg-green-700 transition">

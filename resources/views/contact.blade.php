@@ -14,10 +14,10 @@
             <h1 class="font-bold text-2xl">Contact</h1>
             <p>Wil je meedoen, meedenken, meeleren of meer weten over activiteiten van het lab?</p>
             <p>Stuur ons een bericht en maak een afspraak om langs te komen, iedereen is welkom!</p>
-            <a href="mailto:digitaleinclusie@rotterdam.nl">digitaleinclusie@rotterdam.nl</a>
+            <p><a href="mailto:digitaleinclusie@rotterdam.nl">digitaleinclusie@rotterdam.nl</a><p><br>
             <img src="{{ asset('/images/Contact_foto.jpg') }}"
                  alt="Foto van locatie"
-                 class="w-auto h-64">
+                 class="w-auto h-64 pt-4">
         </div>
     </section>
 
@@ -27,9 +27,9 @@
             <div>
                 Hillevliet 90<br />
                 3074 KD Rotterdam<br />
-                <a href="mailto:digitaleinclusie@rotterdam.nl">digitaleinclusie@rotterdam.nl</a>
+                <p><a href="mailto:digitaleinclusie@rotterdam.nl">digitaleinclusie@rotterdam.nl</a></p><br>
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4924.161289441116!2d4.5037668125406105!3d51.89599238212385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c433097cf8a783%3A0x6aabf347bcd316ef!2sHillevliet%2090%2C%203074%20KD%20Rotterdam!5e0!3m2!1sen!2snl!4v1763988130581!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe class="map"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4924.161289441116!2d4.5037668125406105!3d51.89599238212385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c433097cf8a783%3A0x6aabf347bcd316ef!2sHillevliet%2090%2C%203074%20KD%20Rotterdam!5e0!3m2!1sen!2snl!4v1763988130581!5m2!1sen!2snl" width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <br />
             <p>Wij zijn geopend op maandag, woensdag en vrijdag.</p>
         </div>
@@ -73,3 +73,12 @@
         ?>
     </div>
 @endsection
+
+<style>
+@media (min-width: 1024px) {
+  .map{
+    width: 600px;
+    height: 450px;
+  }
+}
+</style>

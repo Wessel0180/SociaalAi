@@ -13,23 +13,25 @@
 <body class="bg-gradient-to-br from-[#00811F] to-[#b9eb34]">
 
 {{--banner--}}
-<div class="relative w-full h-72 md:h-96 bg-cover bg-center shadow-lg"
-     style="background-image:url('{{ asset('/images/banner-optim.jpg') }}');">
+<div class="flex flex-1 min-w-full mx-auto">
+    <div class="relative w-full md:h-96 bg-cover bg-center shadow-lg "
+        style="background-image:url('{{ asset('/images/banner.jpg') }}');">
 
-    <div class="absolute inset-0 flex items-center justify-start p-8">
-        <img src="{{ asset('/images/Sociaal_AI_Logo_Wit01.png') }}"
-             alt="Sociaal AI Logo"
-             class="h-62 md:h-78 object-contain ml-[15%]">
+        <div class="">
+            <img src="{{ asset('/images/Sociaal_AI_Logo_Wit01.png') }}"
+                alt="Sociaal AI Logo"
+                class="h-62 md:h-78 object-contain ml-[5%]">
+        </div>
     </div>
 </div>
 
 <!-- Navigatie -->
 <nav class="bg-white shadow-md">
-    <div class="max-w-6xl mx-auto px-4 py-3 flex justify-center md:justify-between items-center">
-        <div class="md:flex pr-5 space-x-8 font-medium">
-            <a href="{{ url('/') }}" class="text-gray-700 hover:text-[#00811F]  transition"><i class="fa-solid fa-house"></i> Voorpagina</a>
-            <a href="{{ url('/agenda') }}" class="text-gray-700 hover:text-[#00811F] transition">Agenda</a>
-            <a href="{{ url('/over') }}" class="text-gray-700 hover:text-[#00811F] transition">Voor wie?</a>
+    <div class="navigatie max-w-6xl mx-auto px-4 py-3 flex justify-center md:justify-between items-center">
+        <div class="menu md:flex pr-5 space-x-8 font-medium">
+            <a href="{{ url('/') }}" class="menu block m-4 text-gray-700 hover:text-[#00811F]  transition"><i class="fa-solid fa-house"></i> Voorpagina</a>
+            <a href="{{ url('/agenda') }}" class="menu block m-4 text-gray-700 hover:text-[#00811F] transition">Agenda</a>
+            <a href="{{ url('/over') }}" class="menu block  m-4 text-gray-700 hover:text-[#00811F] transition">Voor wie?</a>
                        <!-- Programma met dropdown -->
             <div class="relative" id="programma-dropdown">
                 <!-- Toggle knop -->
@@ -37,7 +39,7 @@
                     id="programma-toggle"
                     aria-haspopup="true"
                     aria-expanded="false"
-                    class="flex items-center gap-2 text-gray-700 hover:text-[#00811F] transition font-medium focus:outline-none"
+                    class="menu flex items-center gap-2 text-gray-700 hover:text-[#00811F] transition font-medium focus:outline-none"
                 >
                     <span>Wat doen we?</span>
                     <!-- pijl die roteert bij open -->
@@ -54,16 +56,16 @@
                     aria-labelledby="programma-toggle"
                 >
                     <!-- Elke link is role=menuitem voor a11y -->
-                    <a href="{{ url('/programma/kennis') }}" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" role="menuitem">Kennis & vaardigheden</a>
-                    <a href="{{ url('/programma/actie') }}" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" role="menuitem">Actie, onderzoek & ontwerp</a>
-                    <a href="{{ url('/programma/faciliteit') }}" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" role="menuitem">Faciliteit van het Lab
+                    <a href="{{ url('/programma/kennis') }}" class="menu block px-4 py-2 text-gray-700 hover:bg-gray-100" role="menuitem">Kennis & vaardigheden</a>
+                    <a href="{{ url('/programma/actie') }}" class="menu block px-4 py-2 text-gray-700 hover:bg-gray-100" role="menuitem">Actie, onderzoek & ontwerp</a>
+                    <a href="{{ url('/programma/faciliteit') }}" class="menu block px-4 py-2 text-gray-700 hover:bg-gray-100" role="menuitem">Faciliteit van het Lab
                     </a>
                     <!-- voeg meer items toe naar behoefte -->
                 </div>
             </div>
-            <a href="{{ url('/verantwoord-ai') }}" class="text-gray-700 hover:text-[#00811F] transition">Verantwoorde AI</a>
-            <a href="{{ url('/wie-zijn-we') }}" class="text-gray-700 hover:text-[#00811F] transition">Wie zijn we?</a>
-            <a href="{{ url('/contact') }}" class="text-gray-700 hover:text-[#00811F] transition">Contact</a>
+            <a href="{{ url('/verantwoord-ai') }}" class="menu block m-4 text-gray-700 hover:text-[#00811F] transition">Verantwoorde AI</a>
+            <a href="{{ url('/wie-zijn-we') }}" class="menu block m-4 text-gray-700 hover:text-[#00811F] transition">Wie zijn we?</a>
+            <a href="{{ url('/contact') }}" class="menu block m-4 text-gray-700 hover:text-[#00811F] transition">Contact</a>
         </div>
     </div>
 </nav>
@@ -183,3 +185,18 @@
 
 </body>
 </html>
+<style>
+@media (max-width: 1024px) {
+  .menu{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .navigatie{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+  }
+}
+</style>

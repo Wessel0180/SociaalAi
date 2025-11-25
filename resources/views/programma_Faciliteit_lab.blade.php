@@ -5,8 +5,8 @@
 
 @section("content")
 
-      <div class="flex justify-center mt-10">
-         <div class="bg-white p-6  shadow-lg max-w-xl mt-6 w-full border-r text-center">
+      <div class="mobile flex flex-row flex-1 items-center justify-center mt-10">
+         <div class="bg-white p-6 shadow-lg max-w-xl mt-6 w-full border-r text-center">
             <a href="{{ url('/programma/kennis') }}"><h1 class="text-2xl hover:text-[#00811F] font-semibold">Kennis & Vaardigheden</h1></a>
         </div>
         <div class="bg-white p-6 max-w-xl mt-6 w-full text-center border-r border-gray-500">
@@ -17,7 +17,7 @@
         </div>
     </div>
 
-    <div class="flex justify-evenly gap-8 p-6">
+    <div class="mobile-col flex justify-evenly gap-8 p-6">
         <!-- Kolom 1 -->
         <div class="space-y-6 space-x-6 bg-white p-6">
                 <h3 class="text-xl font-semibold mb-4">Het Sociaal AI Lab is op Hillevliet en online te bezoeken.</h3>
@@ -43,3 +43,14 @@
                 </div>
             </div>
 @endsection
+
+<style>
+@media (max-width: 1024px) {
+  .mobile{
+    flex-direction: column;
+  }
+  .mobile-col{
+    flex-direction: column;
+  }
+}
+</style>

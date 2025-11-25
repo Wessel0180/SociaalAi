@@ -23,7 +23,7 @@
                  class="w-full h-auto object-contain">
         </div>
     </section>
-    
+
     {{-- Hogeschool Rotterdam --}}
     <section class="flex flex-col md:flex-row items-center gap-10 bg-white shadow-lg p-8 max-w-6xl min-h-[360px] mx-auto my-12">
 
@@ -60,7 +60,7 @@
         <div class="flex-1 flex items-center justify-center">
             <img src="{{ asset('/images/Techniek_College_Rotterdam_logo.png') }}"
                  alt="Techniek College Rotterdam"
-                 class="w-auto h-64 object-cover p-6">
+                 class="w-auto object-cover p-8">
         </div>
     </section>
 
